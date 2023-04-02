@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    border: 4px solid rgb(0, 208, 255);
+
+    
+}
+
+.body{
+background-color: rgb(2, 10, 18);
+font-family: 'Courier New', Courier, monospace;
+
+}
+
+p {
+color: black;
+font-size: small;
+}
+
+button {
+outline: none;
+background-color: blue;
+
+
+}
+
+.outer-container {
+padding: 10px;
+
+}
+
+.top-corner p {
+float: right;
+}
+
+.highscore ol {
+overflow: scroll;
+
+}
+
+
+highscore {
+    display: block;
+}
