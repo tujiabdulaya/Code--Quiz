@@ -2,9 +2,9 @@ var startBtn = document.getElementById('start')
 var time = document.getElementById('timer')
 var timer 
 var countDown = 60
-var question = document.getElementById('question')
+var questionEl = document.getElementById('question')
 var questionsContainer = document.getElementsByClassName('questions-container')
-
+var questionIndex = 0
 
 
 
@@ -19,11 +19,12 @@ timer = setInterval(function() {
 
     }
 },1000)
+loadQuestion()
 }
 
 startBtn.addEventListener('click', startQuiz)
 
- var questions = [
+ var questionList = [
     {
         question: "What is the capital of New York?", answers: ["Minnepolis", "Seattle", "Albany"], correctAnswer: "Albany"
     },
@@ -37,3 +38,10 @@ startBtn.addEventListener('click', startQuiz)
         question: "What is the capital of Ohio?", answers: ["Columbus", "Seattle", "Albany"], correctAnswer: "Columbus"
     }
  ]
+
+ function loadQuestion (){
+    questionEl.innerText = questionList[questionIndex].question
+    questionList[questionIndex].answers.forEach((answer)=>{
+        
+    })
+ }
