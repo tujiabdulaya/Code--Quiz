@@ -5,17 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code Quiz</title>
-    <link rel="stylesheet" href="./assets /style.css"/>
+    <link rel="stylesheet" href="./assets/style.css"/>
 
 </head>
 <body>
     <div class="outer-containter">
         <div class="top corner">
             <button>View Highscores</button>
-            <p>Timer 00:00</p>
+            <p id="timer">Timer 0</p>
         </div>
 
-        <div class="inner-containter">
+        <div class="inner-container">
 
             <header class="quiz-intro">
                 <h1>Welcome to the quiz</h1>
@@ -26,15 +26,12 @@
 
         <main>
 
-            <section class="questions-screen">
-                <h2>Question Here</h2>
-                <ul>
-                    <li><button>Answer 1</button></li>
-                    <li><button>Answer 2</button></li>
-                    <li><button>Answer 3</button></li>
-                    <li><button>Answer 4</button></li>
-                    <li><button>Answer 5</button></li>
-                </ul>
+            <section class="questions-container">
+                <h4>Question Here</h4>
+                <div id="question">
+
+                </div>
+               
 
             </section>
 
@@ -55,7 +52,7 @@
                     <li>TA -20</li>
                     <li>TA -20</li>
                     <li>TA -20</li>
-                    <li>TA -20</li>
+                    
                 </ol>
             </section>
   
@@ -69,7 +66,7 @@
 
     </div>
 
-    <script src="./assets /script.js"></script>
+    <script src="./assets/script.js"></script>
 
 </body>
 </html>
