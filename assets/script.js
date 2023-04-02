@@ -29,19 +29,19 @@ startBtn.addEventListener('click', startQuiz)
         question: "What is the capital of New York?", answers: ["Minnepolis", "Seattle", "Albany"], correctAnswer: "Albany"
     },
     {
-        question: "What is the capital of Texas?", answers: ["Minnepolis", "Austin", "Albany"], correctAnswer: "Austin"
+        question: "What is the capital of Texas?", answers: ["Minnepolis", "Austin", "Huston"], correctAnswer: "Austin"
     },
     {
-        question: "What is the capital of Minnesota?", answers: ["Minnepolis", "St.Paul", "Albany"], correctAnswer: "St.Paul"
+        question: "What is the capital of Minnesota?", answers: ["Minnepolis", "St.Paul", "Duluth"], correctAnswer: "St.Paul"
     },
     {
-        question: "What is the capital of Ohio?", answers: ["Columbus", "Seattle", "Albany"], correctAnswer: "Columbus"
+        question: "What is the capital of Ohio?", answers: ["Columbus", "Seattle", "Cleveland"], correctAnswer: "Columbus"
     }
  ]
 
  function loadQuestion (){
     questionEl.innerText = questionList[questionIndex].question
     questionList[questionIndex].answers.forEach((answer)=>{
-        
+
     })
  }
