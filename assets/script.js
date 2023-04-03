@@ -45,3 +45,5 @@ startBtn.addEventListener('click', startQuiz)
 
     })
  }
+
+ 
