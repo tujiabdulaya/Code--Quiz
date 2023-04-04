@@ -11,6 +11,8 @@ var questionIndex = 0
 // var hi = "hi"
 
 function startQuiz() {
+    var quizStartScreen = document.getElementById('display-content')
+    quizStartScreen.setAttribute('show','hide')
     console.log ('the button got clicked');
 timer = setInterval(function() {
     if (countDown > 0){
@@ -26,10 +28,10 @@ startBtn.addEventListener('click', startQuiz)
 
  var questionList = [
     {
-        question: "What is the capital of New York?", answers: ["Minnepolis", "Seattle", "Albany"], correctAnswer: "Albany"
+        question: "What is the capital of New York?", answers: ["Phoenix", "Seattle", "Albany"], correctAnswer: "Albany"
     },
     {
-        question: "What is the capital of Texas?", answers: ["Minnepolis", "Austin", "Huston"], correctAnswer: "Austin"
+        question: "What is the capital of Texas?", answers: ["Los Angeles", "Austin", "Huston"], correctAnswer: "Austin"
     },
     {
         question: "What is the capital of Minnesota?", answers: ["Minnepolis", "St.Paul", "Duluth"], correctAnswer: "St.Paul"
@@ -46,4 +48,13 @@ startBtn.addEventListener('click', startQuiz)
     })
  }
 
- 
+ function endQuiz () {
+
+
+ }
+
+
+ function highScore() {
+    
+ }
+
