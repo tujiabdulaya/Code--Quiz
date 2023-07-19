@@ -1,8 +1,8 @@
 # Code-Quiz
 
-#Description
+# Description
 devoleped a timed quiz on JavaScript fundamentals that stores high scores and low scores 
 
-#Deployed link for this weeks challange
+# Deployed link for this weeks challange
 
 
